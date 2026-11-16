@@ -1,0 +1,17 @@
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>DBS Price Prediction</h2>
+        <form action="/dbsResult" method="post">
+            <h4>Enter Exchange Rate USD to SGD(eg 1.3)</h4>
+            <input type="number" name="q" step="0.01" placeholder="Enter current price">
+            <input type="submit" value="Enter">
+        </form>
+         <form action="/" method="post">
+            <input type="submit" value="Exit">
+        </form>
+    </div>
+</body>
